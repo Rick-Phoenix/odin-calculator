@@ -30,8 +30,8 @@ main {
 .screen {
     background-color: #7c9d75;
     margin: 5px;
-    margin-bottom: 35px;
-    height: 50px;
+    margin-bottom: 25px;
+    height: 65px;
     border-radius: 10px;
     padding: 5px;
     box-shadow: inset 0px 1px 5px 2px #49494981;
@@ -60,9 +60,11 @@ button {
     background-color: #868686;
     border-radius: 10px;
     border: 2px black;
-    box-shadow: inset #000000 -2px -1px 0px 0px;
+    box-shadow: inset black -3px -3px;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 16px;
 }
 
 .btn-down {
-    box-shadow: black inset 2px 1px 0px 0px;
+    box-shadow: inset black 2px 2px 2px;
 }
