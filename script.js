@@ -78,8 +78,12 @@ function operate (operator) {
     }
 
     lastOp = operator;
-    if (Number.isInteger(parseFloat(result))) {
-        screen.innerText = parseFloat(result);
+    if (result > 99999999) {
+        screen.innerText = 'TooMuch!';
+        reset();
+        return;
+    } else if (Number.isInteger(parseFloat(result))) {
+        screen.innerText = parseFloat(result)
     } else if (typeof result == 'string') {
         screen.innerText = result;
         reset();
