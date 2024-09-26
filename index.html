@@ -12,36 +12,36 @@
 </head>
 <body>
     <main class="calculator">
-        <div class="screen">00</div>
+        <div class="screen">0</div>
         <div class="buttons-container">
             <div class="row">
-                <button class="button clear">CLEAR</button>
-                <button class="button canc">⌫</button>
-                <button class="button operator">+/-</button>
-                <button class="button operator">÷</button>
+                <button class="button clear" data-value="clear">CLEAR</button>
+                <button class="button canc" data-value="canc">⌫</button>
+                <button class="button operator" data-value="signchange">+/-</button>
+                <button class="button operator" data-value="divide">÷</button>
             </div>
             <div class="row">
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button operator">x</button>
+                <button class="button num">7</button>
+                <button class="button num">8</button>
+                <button class="button num">9</button>
+                <button class="button operator" data-value="multiply">x</button>
             </div>
             <div class="row">
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button operator">-</button>
+                <button class="button num">4</button>
+                <button class="button num">5</button>
+                <button class="button num">6</button>
+                <button class="button operator" data-value="subtract">-</button>
             </div>
             <div class="row">
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button operator">+</button>
+                <button class="button num">1</button>
+                <button class="button num">2</button>
+                <button class="button num">3</button>
+                <button class="button operator" data-value="add">+</button>
             </div>
             <div class="row">
-                <button class="button" style="flex:2.3">0</button>
-                <button class="button">.</button>
-                <button class="button operator">=</button>
+                <button class="button num" style="flex:2.3">0</button>
+                <button class="button float">.</button>
+                <button class="button operator" data-value="result">=</button>
             </div>
         </div>
     </main>
