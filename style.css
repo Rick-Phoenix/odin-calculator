@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Digital Dream';
+    src: url(Digitaldream.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -16,7 +23,7 @@ body {
 main {
     height: 485px;
     width: 300px;
-    background-color: #3b3b3b;
+    background-color: #494949;
     display: flex;
     border-radius: 20px;
     box-shadow: inset -2px -2px 0px 0px #636161e3;
@@ -35,7 +42,11 @@ main {
     border-radius: 10px;
     padding: 5px;
     box-shadow: inset 0px 1px 5px 2px #49494981;
-    
+    text-align: end;
+    font-size: 35px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: 'Digital dream';
 }
 
 .buttons-container {
@@ -60,11 +71,23 @@ button {
     background-color: #868686;
     border-radius: 10px;
     border: 2px black;
-    box-shadow: inset black -3px -3px;
+    box-shadow: black -2px -1px;
     font-family: 'Aldrich', sans-serif;
     font-size: 16px;
 }
 
+.clear {
+    background-color: #b13333;
+}
+
+.canc {
+    background-color: #4444bb;
+}
+
+.operator {
+    background-color: #40bb88;
+}
+
 .btn-down {
-    box-shadow: inset black 2px 2px 2px;
+    box-shadow: black 2px 1px;
 }
